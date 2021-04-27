@@ -26,6 +26,13 @@ Product.belongsToMany(Tag, {
 })
 
 // Tags belongToMany Products (through ProductTag)
+Tag.belongsToMany(Product, {
+  through: {
+    model: ProductTag,
+    // unique: false ??? DO I NEED THIS???
+  },
+  as: 'tagged_products',
+})
 
 module.exports = {
   Product,
