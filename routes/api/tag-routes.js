@@ -49,7 +49,7 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
-    if (!req.body) {
+    if (!req.body.tag_name) {
       res.status(400).json({ message: 'Could not update!'})
     };
 
