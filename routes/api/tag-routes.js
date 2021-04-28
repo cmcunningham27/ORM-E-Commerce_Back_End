@@ -54,7 +54,9 @@ router.put('/:id', async (req, res) => {
     };
 
     const tagData = await Tag.update(
-      req.body,
+      {
+        tag_name: req.body.tag_name
+      },
       {
         where: {
           id: req.params.id,
@@ -63,7 +65,7 @@ router.put('/:id', async (req, res) => {
     );
 
     if (!tagData[0]) {
-      res.status(404).json({ mesage: 'Tag not found!' });
+      res.status(404).json({ message: 'Tag not found!' });
       return;
     };
 

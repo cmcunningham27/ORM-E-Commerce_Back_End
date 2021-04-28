@@ -48,6 +48,11 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
+  try {
+
+  } catch (err) {
+    res.status()
+  }
 });
 
 router.delete('/:id', (req, res) => {
