@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/cmcunningham27/ORM-E-Commerce_Back_End#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.2.5",
