@@ -48,6 +48,8 @@ This project is licensed under the MIT license.
 I ran into moments where the request was not working properly, but I knew my code was correct. I used the console.log option when an error occured so I could be notified where the problem was coming from. I found that most of the time it was a single extra letter, or character.
 
 When attempting to do a product POST it wasn't working. I took a closer look and that's when it became noticable that I was putting the actual table column name in (tag_id) instead of what the original code that was given was calling it (tagIds). Once I made this change the POST went through just fine. 
+
+When doing the POST request for products I noticed that the example req.body was missing "category_id", so I included that to make sure the product was connected to a category.
 ## Questions
 ---
 [GitHub Profile](https://github.com/cmcunningham27)
