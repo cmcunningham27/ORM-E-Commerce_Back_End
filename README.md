@@ -25,8 +25,11 @@ I created this app using mySQL2, Sequelize, and Express. The purpose for created
 ## Usage
 ---
 [Demonstration Video POST, PUT, GET](https://drive.google.com/file/d/1zN1oGYyT6hbBvP8CRfaD3RE8ip3FDXOW/view)
+
 [Demonstration Video Deleting](https://drive.google.com/file/d/1gsMfmtX7x7ORrnBZLZIWDIqGLBMry8JQ/view)
+
 [Demonstration Video Single GET](https://drive.google.com/file/d/1QD_p9uGZVDycM3LZcDzU6v_tPHgRbfyC/view)
+
 1. Once the app has begun go to your REST API Client (Insomnia or Postman) and start your requests.
 2. Start with GET https://localhost:3001/api/categories to see all categories along with their Products.
 3. You can see a specific category by entering the id for the category you wish to visit at the end like: GET https://localhost:3001/api/categories/5.
