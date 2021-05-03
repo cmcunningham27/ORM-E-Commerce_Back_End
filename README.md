@@ -7,7 +7,7 @@
 I created this app using mySQL2, Sequelize, and Express. The purpose for created the back-end functionality for this app was to allow an Internet Retial Company the ability to Create, Update, See and Remove Categories, Products, and Tags. This will allow them to compete with other e-commerce companies. They can do it without giving away their personal information because this app uses the dotenv npm package. Thus, their password and username is placed in a .env file rather than a public file. The app will connect to the local host at PORT 3001, and their mySQL database at 3306. 
 ## Repository
 ---
-[Application Repository URL](https://github.com/cmcunningham27/ORM-E_Commerce_Back_End)
+[Application Repository URL](https://github.com/cmcunningham27/ORM-E-Commerce_Back_End)
 ## Table of Contents
 ---
 - [Installation](#installation)
